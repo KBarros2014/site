@@ -1,0 +1,7 @@
+{ 
+	"name": "Set up database",
+	"author": "Mike Lopez",
+	"SQLscript": "sql/database.sql"
+}
+
+

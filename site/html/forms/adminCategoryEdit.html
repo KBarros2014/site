@@ -1,0 +1,15 @@
+<div class="adminEdit">
+<h2>Editing Category ##id##</h2>
+<form action="##site##admin/category/edit/##id##" method="POST">
+CategoryName<br/>
+<input type="text" name="name" value="##name##" />
+<span class="error">##nameError##</span>
+Description<br/>
+<textarea name="description" rows="5">
+##description##
+</textarea>
+<span class="error">##descriptionError##</span>
+<br/><br/>
+<input type="submit" value ="save category" />
+</form>
+</div>

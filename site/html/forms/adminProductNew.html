@@ -1,0 +1,29 @@
+<div class="adminEdit">
+<h2>New Product</h2>
+<form action="##site##admin/product/new/##id##" method="POST">
+ProductName<br/>
+<input type="text" name="name" value="##name##" />
+<span class="error">##nameError##</span>
+Description<br/>
+<textarea name="description" rows="5">
+</textarea>
+<span class="error"></span>
+Price
+<input type="text" name="price" value="##price##" />
+<!--you need the damm priceERrps kab-->
+<span class="error">##priceError##</span>
+<br/><br/>
+Picture
+<input type="text" name="picture" value="##picture##" />
+<span class="error">##pictureError##</span>
+<br/><br/>
+Category
+<br/>
+##categoryList##
+
+<span class="error">##catIDError##</span>
+<br/><br/>
+<br/>
+<input type="submit" value ="save product"/>
+</form>
+</div>

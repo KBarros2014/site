@@ -1,0 +1,21 @@
+Alex- SQL Injection.
+
+ SQL statements are inserted into an entry field for execution .When SQL is used to display data on a web page, it is common to let web users input their own search values. Since SQL statements are text only, it is easy, with a little piece of computer code, to dynamically change SQL statements to provide the user with selected data.
+
+What happens is that the SQL statement you pass to prepare is parsed and compiled by the database server. By specifying parameters (either a ? or a named parameter like :name in the example above) you tell the database engine where you want to filter on. Then when you call execute, the prepared statement is combined with the parameter values you specify.
+
+simplify, will on PPT
+----------------------------------
+What is SQL Injection?
+1.SQL statements are inserted into an entry field for execution.
+2.When SQL is used to display data on a web page, it is common to let users input their own values.
+3.When input code on entry field, it dynamically change SQL statements to provide the user with selected data.
+
+We need to make User login more security,try no to return erro talbe, we need to prvent SQL injection
+
+How to prevent SQL-injection in PHP?
+In our code, we using 
+1.escape(), 
+2.throw new LoginException ('Invalid credentials');
+3.try to call Common class “Abstract class”
+---------------------------------
